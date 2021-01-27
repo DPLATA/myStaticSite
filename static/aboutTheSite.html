@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About this site</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.2-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="wrapper" >
+        <header>
+            <nav>
+                <ul>
+                    <a href="../index.html">
+                        <!--a little bit about me: hobbies etc and tech stack-->
+                        <li>ABOUT ME</li>
+                    </a>
+                    <a href="#">
+                        <!--how it was built and what is it for-->
+                        <li>ABOUT THIS SITE</li>
+                    </a>
+                    <!--a href="">
+                        <past projects gallery and what I'm currently working on>
+                        <li>MY WORK</li>
+                    </a>
+                    <a href="">
+                        <description of how we can get to work together>
+                        <li>HIRE ME</li>
+                    </a-->
+                    <a href="">
+                        <!--link to my resume in pdf format-->
+                        <li style="color: #cc4641;">RESUME</li>    
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <p class="centered" style="font-weight: 300; font-size: 1.75em;">
+                    This is my personal site for showcasing my skills, my latest and finest work, so for now be sure to check out my github profile plus I'll be constantly updating this section!
+                </p>
+            </section>
+            <section>
+                <div class="gallery">
+                    <div class="galleryItem">
+                        <img src="../imgs/np_Best friends having fun with skateboard on open road_5zZKk5_free.jpg" alt="">
+                    </div>
+                    <div class="galleryItem">
+                        <img src="../imgs/np_Young woman skating with her friend in background_0gLMX5_free.jpg" alt="">
+                    </div>
+                    <div class="galleryItem">
+                        <img src="../imgs/np_Best friends having fun with skateboard on open road_5zZKk5_free.jpg" alt="">
+                    </div>
+                    <div class="galleryItem">
+                        <img src="../imgs/np_Young woman skating with her friend in background_0gLMX5_free.jpg" alt="">
+                    </div>
+                    </div>
+                <!--div class="galleryItem">
+                    <img src="../imgs/np_Best friends having fun with skateboard on open road_5zZKk5_free.jpg" alt="">
+                </div>
+                <div class="galleryItem">
+                    <img src="" alt="">
+                </div>
+                <div class="galleryItem">
+                    <img src="../imgs/np_Young woman skating with her friend in background_0gLMX5_free.jpg" alt="">
+                </div-->
+                <!--Young woman skating with her friend in background by Jacob Lund from Noun Project
+                Best friends having fun with skateboard on open road by Jacob Lund from Noun Project
+                Young woman skating outdoors on rural road by Jacob Lund from Noun Project
+                Side portrait of young people skateboarding together on road by Jacob Lund from Noun Project-->
+            </section>
+            <section style="margin: 8% 0;">
+                <p class="descriptionCentered" style="font-size: 2.5em; font-weight: 700;">This site was built (actually is a work in progress 🚧) only using:</p>
+                <i class="fab fa-html5 fa-10x midLeft" style="padding: 3%; box-shadow: rgba(230, 103, 68, 0.4) -5px 5px, rgba(230, 103, 68, 0.3) -10px 10px, rgba(230, 103, 68, 0.2) -15px 15px, rgba(230, 103, 68, 0.1) -20px 20px, rgba(230, 103, 68, 0.05) -25px 25px; color: #e66744;"></i>
+                <i class="fab fa-css3-alt fa-10x midRight" style="padding: 3%; box-shadow: rgba(3, 102, 214, 0.4) 5px 5px, rgba(3, 102, 214, 0.3) 10px 10px, rgba(3, 102, 214, 0.2) 15px 15px, rgba(3, 102, 214, 0.1) 20px 20px, rgba(3, 102, 214, 0.05) 25px 25px;color: #1e90ff;"></i>
+            </section>
+        </main>
+        <footer>
+            <p class="fLeft">Online profiles</p>
+            <p class="fRight">
+                <a href="http://github.com/DPLATA" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://mx.linkedin.com/in/diego-gonz%C3%A1lez-plata-75a713166?trk=people-guest_people_search-card" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://stackoverflow.com/users/13463025/diego-plata" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-stack-overflow"></i>
+                </a>
+                <!--i class="fab fa-medium"></i>
+                <i class="fab fa-dev"></i-->
+            </p>
+            
+            <div class="fCenter" id="footerDate"></div>
+        </footer>
+    </div>
+
+    <script>
+        var td = new Date();
+        document.getElementById("footerDate").innerHTML = td.toString();
+    </script>
+</body>
+</html>

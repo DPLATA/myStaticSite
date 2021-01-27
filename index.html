@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silverboy static website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="wrapper" >
+        <header>
+            <nav>
+                <ul>
+                    <a href="#">
+                        <!--a little bit about me: hobbies etc and tech stack-->
+                        <li>ABOUT ME</li>
+                    </a>
+                    <a href="static/aboutTheSite.html">
+                        <!--how it was built and what is it for-->
+                        <li>ABOUT THIS SITE</li>
+                    </a>
+                    <!--a href="">
+                        <past projects gallery and what I'm currently working on>
+                        <li>MY WORK</li>
+                    </a>
+                    <a href="">
+                        <description of how we can get to work together>
+                        <li>HIRE ME</li>
+                    </a-->
+                    <a href="">
+                        <!--link to my resume in pdf format-->
+                        <li style="color: #cc4641;">RESUME</li>    
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <aside>
+                    <p style="font-weight: 700; font-size: 3em;">Diego Plata</p>
+                    <p style="font-size: 1.4em; font-weight: 300;">Hi I'm Diego a software engineer currently working for Insulet in Tijuana, BC.
+                       I have serious passion for the whole web development process, from conceptualizing
+                       an idea, to the project management, the actual development, testing and all the way 
+                       to production ready deployments.
+                    </p>
+                    <p style="font-size: 1.4em; font-weight: 300;">On the side I also love sports, outdoors, physical activity and music.</p>
+                    <i class="fas fa-football-ball fa-2x"></i>
+                    <i class="fas fa-biking fa-2x"></i>
+                    <i class="fas fa-running fa-2x"></i>
+                    <i class="fas fa-music fa-2x"></i>
+                </aside>
+                <div class="card">
+                    <img src="imgs/Torres-del-paine.jpg" alt="Avatar" style="max-width: 100%;">
+                    <h1 style="font-weight: 700;">Diego González Plata</h1>
+                    <p style="font-weight: 400;">Software engineer</p>
+                    <p style="font-weight: 200;">Let's keep learning in order to build the web 🚀</p>
+                </div>
+
+            </section>
+            <section style="height: 50vh;">
+                <p class="centered" style="font-weight: 700; font-size: 2.5em;">MY CURRENT TECH STACK</p>
+                <i class="fab fa-html5 fa-10x iLeft" style="color: rgb(230, 103, 68);"></i>
+                <i class="fab fa-css3-alt fa-10x iRight" style="color: #1e90ff;"></i>
+                <i class="fab fa-js-square fa-10x iLeft2" style="color:#60a313 ;"></i>
+                <i class="fab fa-python fa-10x iRight2" style="color: #f7cb41;"></i>
+            </section>
+            <!--section style="margin-top: 8%;">
+                <p class="descriptionCentered" style="font-size: 2.5em; font-weight: 700;">This site was built (actually is a work in progress 🚧) only using:</p>
+                <i class="fab fa-html5 fa-10x midLeft" style="padding: 3%; box-shadow: rgba(230, 103, 68, 0.4) -5px 5px, rgba(230, 103, 68, 0.3) -10px 10px, rgba(230, 103, 68, 0.2) -15px 15px, rgba(230, 103, 68, 0.1) -20px 20px, rgba(230, 103, 68, 0.05) -25px 25px; color: #e66744;"></i>
+                <i class="fab fa-css3-alt fa-10x midRight" style="padding: 3%; box-shadow: rgba(3, 102, 214, 0.4) 5px 5px, rgba(3, 102, 214, 0.3) 10px 10px, rgba(3, 102, 214, 0.2) 15px 15px, rgba(3, 102, 214, 0.1) 20px 20px, rgba(3, 102, 214, 0.05) 25px 25px;color: #1e90ff;"></i>
+            </section>
+            <section>
+                <p class="description">My work: section under construction</p>
+            </section-->
+        </main>
+        <footer>
+            <p class="fLeft">Online profiles</p>
+            <p class="fRight">
+                <a href="http://github.com/DPLATA" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://mx.linkedin.com/in/diego-gonz%C3%A1lez-plata-75a713166?trk=people-guest_people_search-card" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://stackoverflow.com/users/13463025/diego-plata" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-stack-overflow"></i>
+                </a>
+                <!--i class="fab fa-medium"></i>
+                <i class="fab fa-dev"></i-->
+            </p>
+            
+            <div class="fCenter" id="footerDate"></div>
+        </footer>
+    </div>
+
+    <script>
+        var td = new Date();
+        document.getElementById("footerDate").innerHTML = td.toString();
+    </script>
+</body>
+</html>
